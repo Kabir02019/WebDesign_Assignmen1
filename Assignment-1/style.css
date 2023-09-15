@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif !important;
+    max-width: none;
+    color: white !;
+}
+
+body{
+    max-width: 100VW !important;
+}
+
+
+.BigText
+{
+    width:100%;
+    height:100dvh;
+    background-image:radial-gradient(rgba(0, 0, 0, 0.574),rgba(0, 0, 0, 0.574)),url(/Assignment-1/images/bground.jpg);
+    background-position: center;
+    background-size:cover;
+
+}
+
+.BigText2
+{
+    width:100%;
+    height:100dvh;
+    background-image:radial-gradient(rgba(0, 0, 0, 0.574),rgba(0, 0, 0, 0.574)),url(/Assignment-1/images/newformbg.jpg);
+    background-position: center;
+    background-size:cover;
+
+}
+
+.BigText1
+{
+    width:100%;
+    height:100dvh;
+    background-image:radial-gradient(rgba(0, 0, 0, 0.574),rgba(0, 0, 0, 0.574)),url(/Assignment-1/images/Background\ join.jpg);
+    background-position: center;
+    background-size:cover;
+
+}
+
+.Sections
+{   
+    text-align: center;
+}
+.Sections ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+
+}
+
+.Sections ul li
+{
+    width: 160px;
+    margin: 10 px;
+    padding: 20 px;
+}
+.Sections ul li a
+{
+    text-decoration: solid;
+    color: azure;
+}
+
+.active, .Sections ul li:hover
+{
+background: orange;
+height: 25px;
+font-size: 20px;
+border-radius: 40px;
+
+
+
+}
+
+.TitleHeader
+{
+    color: transparent ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 81px;
+    -webkit-text-stroke: 1px white;
+    background-image: linear-gradient(Orange,Orange);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text; 
+    background-clip: value;    
+    background-position: -750px 0;
+    animation: colorup 15s linear infinite alternate;
+    
+}
+
+@keyframes colorup {
+    100%{background-position: 0 0;}
+}
+
+.footer
+{
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+}
+
+
+.SumStyle
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#Paraclick
+{
+    color: white;
+    font-family:monospace;
+    font-size: 50x;
+    line-height: 250%;
+}
+
+.FootStyle
+{
+    color: yellow;
+    font-family:monospace;
+    position:absolute;
+    top: 100%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    font-size: 50x;
+}
+
+
+.spaceX
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 40px;
+}
+
+.NASA
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 40px;
+
+}
+
+
+.ISRO
+{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 40px;
+
+}
+
+
+.BlueOrigin
+{
+
+
+    height: 250px;
+    width: 250px;
+    border-radius: 40px;
+
+}
+
+.ContactUSIndex
+{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Section2
+{
+    max-width: 100vw !important;
+    background-image:url(/Assignment-1/images/TableBG.jpg);
+}
+.t1
+{
+    border:3px solid rgb(255, 253, 253);
+    color:white;
+    font-size:x-large;
+    border-color: rgb(245, 242, 241);
+    background-color: transparent;
+    margin: auto;
+    border-collapse:collapse;
+}
+
+td, th {
+    border: 1px solid rgb(246, 242, 242);
+    text-align: center;
+  }
+.IndexRocket
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.Section3
+{
+    background-image:url(/Assignment-1/images/Section\ 3\ background\ image.jpeg);
+}
+footer {
+
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.Glider
+{
+    margin: auto;
+    color: white ;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-radius: 40px;
+    object-fit: contain;
+    
+}
+
+
+.CompText
+{
+    margin: auto;
+    color: white ;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content:space-evenly;
+    padding: 40px 5px;
+    text-align: center;
+}
+
+
+
+.FormWrapper {
+    
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color:wheat;
+}
+
+.formstyle {
+    margin-bottom: 20px;
+}
+
+.formstyle label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.submitButton {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.mailcolour
+{
+    color: #fff;
+}
+
+.telcolour
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
